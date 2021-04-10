@@ -12,7 +12,6 @@ class AddCustomer extends Component {
       }
     
       submitHandler(event){
-          console.log("inside submit handler");
           event.preventDefault();
           const newStateObj={...this.state,formStatus:'Form successfully submitted'};
           
@@ -50,7 +49,7 @@ class AddCustomer extends Component {
       }
       
       render() {
-          console.log("inside render");
+    
          return  (
          
         <div>
